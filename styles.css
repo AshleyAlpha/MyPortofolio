@@ -68,29 +68,38 @@ width:20px;
     width:100%;
     display:flex;
     justify-content: space-between;
+    /* align-items: center; */
    margin-left: 40px;
    margin-right: 40px;
+   padding: 60px;
   }
   #service-left{
     width:50%;
   }
   #service-right{
-    width:50%;
+    width:60%;
+    margin-left: 100px;
   }
   
   
   #service-right img{
     width:300px;
     height:500px;
+    
 }
 #left1{
   display: flex;
   justify-content: space-between;
-  /* width:25%; */
+  margin-bottom: 40px;
+  margin-right: 40px;
  
 }
 #left2{
   display: flex;
   justify-content: space-between;
-  /* width:25%; */
+  margin-right: 40px;
+}
+#my-skills{
+  font-size: 30px;
+  padding:10px;
 }
