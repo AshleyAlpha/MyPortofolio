@@ -8,7 +8,7 @@ section {
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: bisque;
   font-family: "Karla", Arial, sans-serif;
   line-height: 1.8;
   font-size: 16px;
@@ -35,23 +35,19 @@ header {
   margin: 60px;
   margin-top: 60px;
   /* padding: 10%; */
-
 }
 header img {
-  width: 60px;
+  position: fixed;
 }
-#social-media{
-  /* display: flex; */
-}
-#social-media li{
+#social-media li {
   display: inline;
   margin-top: 2%;
   padding: 3px;
 }
-#social-media li img{
-width: 30px;
-margin-top: 3%;
-/* padding:%; */
+#social-media li img {
+  width: 30px;
+  margin-top: 3%;
+  /* padding:%; */
 }
 #left {
   display: flex;
@@ -68,10 +64,19 @@ margin-top: 3%;
   display: flex;
   align-items: flex-start;
 }
+.navs li a:hover {
+  color: gray;
+  /* background-color: teal; */
+  /* padding: 1%; */
+}
+#p2 {
+  margin-top: 2%;
+}
 
 /* -------------SERVICE SECTION------------- */
 
 #services-section {
+  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -103,9 +108,7 @@ margin-top: 3%;
   font-size: 30px;
   padding: 10px;
 }
-.DoneProjects-section img {
-  width: 100%;
-}
+
 button {
   margin-top: 5%;
   padding: 1%;
@@ -116,17 +119,62 @@ button {
 .navs li {
   display: inline;
   padding: 15px;
-  
 }
-.navs li a{
+.navs li a {
   text-decoration: none;
   color: teal;
 }
-.navs li a:hover{
-  color: gray;
-  /* background-color: teal; */
-  /* padding: 1%; */
+
+/* PROJECTS SECTION----------------------- */
+
+#projects-section {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: teal;
+  color: bisque;
+  padding: 10%;
 }
-#p2{
-  margin-top:2%;
+#projects-section img {
+  height: vh;
+  width: 50%;
+  transition: transform 0.3s ease;
+}
+#projects-section:hover img {
+  background-color: cyan;
+  transform: scale(2.2);
+}
+#pproj {
+  /* text-align: center; */
+}
+
+
+/* FOOTER SECTION................ */
+#footer-section{
+  display: flex;
+  justify-content: space-around;
+  color: teal;
+  background-color: bisque;
+  width:100%;
+  height: 100vh; 
+}
+#footer1{
+  /* width:50%; */
+  margin-top: 15%;
+}
+#footer2{
+  /* width:50%; */
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+#footer1 #lastp{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  /* margin-bottom:10%; */
+}
+#footer2 #lastp{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  /* margin-bottom:10%; */
 }

@@ -1,0 +1,53 @@
+/* .form {
+  background-color: teal;
+  display: flex;
+  justify-items: center;
+} */
+/* Basic form styling */
+body{
+    background-color: bisque;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    background-color: teal;
+    border-radius: 8px;
+}
+
+label {
+    color:bisque;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+textarea {
+    height: 100px; /* Example height for the textarea */
+}
+
+input[type="submit"] {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: bisque;
+}
